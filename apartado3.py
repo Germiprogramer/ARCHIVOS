@@ -1,6 +1,6 @@
 from apartado1 import *
 
-class Calificaciones():
+class Calificaciones3():
     def __init__(self, archivo):
         self.archivo = archivo
 
@@ -35,4 +35,4 @@ class Calificaciones():
 
 
 csv = Calificaciones("calificaciones.csv")
-csv.creardiccionario()
+csv.aprobados()

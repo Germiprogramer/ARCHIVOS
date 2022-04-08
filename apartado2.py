@@ -1,6 +1,6 @@
 from apartado1 import *
 
-class Calificaciones():
+class Calificaciones2():
     def __init__(self, archivo):
         self.archivo = archivo
 
